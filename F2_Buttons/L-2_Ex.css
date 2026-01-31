@@ -1,5 +1,4 @@
-<style>
-  .uber-button {
+.uber-button {
     background-color: black;
     height: 40px;
     width: 150px;
@@ -18,18 +17,7 @@
     border-radius: 20px;
     cursor: pointer;
   }
-</style>
 
-<p>2a. Uber</p>
-<button class="uber-button">Request now</button>
-<br>
-
-<p>2b. Amazon</p>
-<button class="amazon-button">Add to Cart</button>
-<br>
-
-<p>2c. GitHub</p>
-<style>
   .github-button {
     background-color: rgb(46, 164, 79);
     color: white;
@@ -41,11 +29,8 @@
     font-size: 14px;
     font-weight: bold;
   }
-</style>
-<button class="github-button">Sign up</button>
-<br>
-<p>2d. Bootstrap</p>
-<style>
+
+  
   .get-started-button {
     background-color: rgb(86, 61, 124);
     color: white;
@@ -70,13 +55,8 @@
     font-weight: bold;
     margin-right: 10px;
   }
-</style>
-<button class="get-started-button">Get started</button>
-<button class="download-bootstrap">Download</button>
-<br>
 
-<p>2e. Linkedln</p>
-<style>
+  
   .apply-button {
     background-color: rgb(10, 102, 194);
     color: white;
@@ -100,6 +80,3 @@
     font-size: 14px;
     font-weight: bold;
   }
-</style>
-<button class="apply-button">Apply on company website</button>
-<button class="save-button">Save</button>
