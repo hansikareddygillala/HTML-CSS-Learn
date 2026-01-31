@@ -1,5 +1,4 @@
-<style>
-  p {
+p {
     font-family: Arial;
     font-size: 14px;
     margin-top: 0px;
@@ -49,29 +48,3 @@
   .shop-link:hover {
     text-decoration: underline;
   }
-</style>
-
-<p class="video-title">
-  Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
-
-<p class="video-stats">
-  3.4M views &#183; 6 months ago
-</p>
-
-<p class="video-author">
-  Marques Brownlee &#10003; 
-</p>
-
-<p class ="video-description">
-  Talking tech and AI on the heels of Google I/O.
-   Also a daily driver phone reveal from Google's CEO.
-   Shoutout to Sundar!
-</p>
-
-<p class="apple-text">
-  Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;</span>
-</p>
-<p>
-  This is a sample paragraph to demonstrate text styling using CSS. The font family is set to Arial, and the font size is 14 pixels. The margins at the top and bottom of the paragraph are set to zero to ensure there is no extra space around the text.
-</p>
