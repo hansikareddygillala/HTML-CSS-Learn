@@ -3,7 +3,15 @@
 <head>
   <title>Document</title>
   <style>
-    .doraemon-pfp {
+    .profile {
+      box-shadow: 0 0 8px rgba(0,0,0,0.25);
+      width: 150px;
+      height: 245px;
+      margin-right: 5px;
+      display: inline-block;
+    }
+
+    .pfp {
       width: 150px;
       height: 150px;
       object-fit:cover;
@@ -14,7 +22,7 @@
       font-family: Arial;
       font-size:16px;
       font-weight: bold;
-      margin-left: 3px;
+      margin-left: 5px;
       margin-top: 5px;
       margin-bottom: 0px;
     }
@@ -25,23 +33,83 @@
       font-size: 14px;
       margin-top: 5px;
       margin-bottom: 5px;
+      margin-left: 5px;
 
     }
 
     .add-frnd {
+      font-family: Arial;
       padding: 8px 14px;
       background-color: rgb(37, 124, 255);
       border:none;
       border-radius: 5px;
       color: white;
+      margin-left: 5px;
+    }
+
+    .add-frnd:hover {
+      cursor: pointer;
+      background-color: rgb(0, 83, 208);;
     }
   </style>
 </head>
 <body>
   <div class="profile">
-    <img class="doraemon-pfp" src="Doraemon.jpg">
+    <img class="pfp" src="Doraemon.jpg">
     <p class="u-name">
       Doraemon
+    </p>
+    <p class="mutual-friends">
+      2 mutual friends
+    </p>
+    <button class="add-frnd">
+      Add Friend
+    </button>
+  </div>
+  
+  <div class="profile">
+    <img class="pfp" src="Nobita.png">
+    <p class="u-name">
+      Nobita
+    </p>
+    <p class="mutual-friends">
+      2 mutual friends
+    </p>
+    <button class="add-frnd">
+      Add Friend
+    </button>
+  </div>
+  
+  <div class="profile">
+    <img class="pfp" src="Shizuka.jpg">
+    <p class="u-name">
+      Shizuka
+    </p>
+    <p class="mutual-friends">
+      2 mutual friends
+    </p>
+    <button class="add-frnd">
+      Add Friend
+    </button>
+  </div>
+  
+  <div class="profile">
+    <img class="pfp" src="Sunio.jpg">
+    <p class="u-name">
+      Sunio
+    </p>
+    <p class="mutual-friends">
+      2 mutual friends
+    </p>
+    <button class="add-frnd">
+      Add Friend
+    </button>
+  </div>
+  
+  <div class="profile">
+    <img class="pfp" src="Jian.jpg">
+    <p class="u-name">
+      Jian
     </p>
     <p class="mutual-friends">
       2 mutual friends
