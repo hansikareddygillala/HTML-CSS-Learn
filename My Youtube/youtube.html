@@ -6,12 +6,41 @@
 
       .thumbnail {
         width: 300px;
+        display: block;
+      }
+
+      .vid-title {
+        width:300px;
+        
+      }
+      .vid-author,
+      .vid-stats {
+        font-size:14px;
+        color: rgb(94, 94, 94);
+        margin-bottom:0px;
       }
     </style>
   </head>
 
   <body>
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
     <input type="text" placeholder="Search">
+    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+
+    <p  class="vid-title">
+      Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+
+    <p class="vid-author">
+      Marques Brownlee
+    </p>
+
+    <p class="vid-stats">
+      3.4M views &#183; 6 months ago
+    </p>
+
   </body>
 </html>
+
+<!--block means it takes up the whole line and not allow other props to be beside them, wheras inline block is opp it will move para graphs 
+or others to be beside them. Always paragraphs are displayed in the next line to make them be on the same line u shld use inline block. 
+And text box is always displayed beside the props so block is used to make it go to the next line-->
