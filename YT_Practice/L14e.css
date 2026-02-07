@@ -1,0 +1,63 @@
+.body {
+  font-family:Arial;
+}
+
+
+.header {
+  background-color: bisque;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  height:60px;
+
+  display:flex;
+  flex-direction: row;
+  vertical-align:center;
+  justify-content: space-between;
+
+  padding:5px 100px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.image {
+  height: 50px;
+  width:50px;
+  border-radius:25px;
+  margin-right: 8px;
+
+}
+
+.name {
+  font-weight: bold;
+}
+
+.right-side {
+  display: flex;
+  flex-direction:row;
+  padding: 12px 0;
+}
+
+.add-friend {
+  background-color: rgb(0, 133, 228);
+  font-size: 16px;
+  color:white;
+  border-radius:5px;
+  padding:8px 8px;
+  border:none;
+  margin-right:8px
+}
+
+.message {
+  background-color: rgb(223, 223, 223);
+  font-size: 16px;
+  color:black;
+  border-radius:5px;
+  padding:8px 8px;
+  border:none;
+}
