@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .box {
+      position:relative;
+      display:inline-block;
+    }
+
+    .image {
+      width:300px;
+      height:300px;
+      object-fit:cover;
+      object-position: center;
+      background-color: grey;
+    }
+
+    .discount{
+      font-family: Arial;
+      position:absolute;
+      background-color: black;
+      color: white;
+      padding:8px;
+      top: 8px;
+      right:0;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.562);
+      width:300px;
+      height: 100px;
+      position:absolute;
+      bottom: 0;
+      left:0;
+      right:0;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+    .button {
+      border:1px solid black;
+      padding: 8px 12px;
+      background-color: white;
+    }
+  </style>
+</head>
+<body style="height:3000px">
+  <div class="box">
+    <img class="image" src="white-dress.jpg">
+    <div class="discount">20% OFF</div>
+    <div class="overlay">
+      <button class="button">
+        Add to Cart
+      </button>
+    </div>
+  </div>
+</body>
+</html>
