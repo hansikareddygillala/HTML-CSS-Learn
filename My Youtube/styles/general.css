@@ -8,8 +8,9 @@ body {
   margin: 0;
   font-family: Roboto, Arial;
   padding-top:80px;
-  padding-left:100px;
-  background-color:bisque;
+  padding-left:96px;
+  padding-right: 24px;
+  background-color: rgb(249, 249, 249);
 
 
 }
